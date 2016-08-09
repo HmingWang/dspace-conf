@@ -220,7 +220,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">社群列表</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">社群列表</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">数据仓储中的社群</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">社群</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">选择一个社群浏览其包括的专题。</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
