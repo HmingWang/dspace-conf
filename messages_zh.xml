@@ -215,7 +215,7 @@
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">作者</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">日期</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">高级检索</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Recent Submissions</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">最近提交</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">社群列表</message>
@@ -264,9 +264,9 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">View Item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">This item appears in the following Collection(s)</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Show simple item record</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Show full item record</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">当前条目出现在以下专题中</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">显示条目简明记录</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">显示条目详细记录</message>
 
         <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">This item has been withdrawn and is no longer available.</message>
 
@@ -461,32 +461,32 @@
 	<message key="xmlui.EPerson.CannotRegister.para1">当前配置不允许注册，请联系<a href="../contact">网站管理员</a>如有您有任何疑问或建议。</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
-	<message key="xmlui.EPerson.EditProfile.title_update">Update Profile</message>
-	<message key="xmlui.EPerson.EditProfile.title_create">Create Profile</message>
-	<message key="xmlui.EPerson.EditProfile.trail_update">Update Profile</message>
-	<message key="xmlui.EPerson.EditProfile.head_update">Update Profile</message>
-	<message key="xmlui.EPerson.EditProfile.head_create">Create Profile</message>
-	<message key="xmlui.EPerson.EditProfile.email_address">Email Address</message>
-	<message key="xmlui.EPerson.EditProfile.first_name">First Name</message>
-	<message key="xmlui.EPerson.EditProfile.last_name">Last Name</message>
-	<message key="xmlui.EPerson.EditProfile.telephone">Contact Telephone</message>
-        <message key="xmlui.EPerson.EditProfile.Language">Language</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions">Subscriptions</message>
+	<message key="xmlui.EPerson.EditProfile.title_update">更新个人资料</message>
+	<message key="xmlui.EPerson.EditProfile.title_create">创建个人资料</message>
+	<message key="xmlui.EPerson.EditProfile.trail_update">更新个人资料</message>
+	<message key="xmlui.EPerson.EditProfile.head_update">更新个人资料</message>
+	<message key="xmlui.EPerson.EditProfile.head_create">创建个人资料</message>
+	<message key="xmlui.EPerson.EditProfile.email_address">电子邮件地址</message>
+	<message key="xmlui.EPerson.EditProfile.first_name">名字</message>
+	<message key="xmlui.EPerson.EditProfile.last_name">姓氏</message>
+	<message key="xmlui.EPerson.EditProfile.telephone">联系电话</message>
+        <message key="xmlui.EPerson.EditProfile.Language">语言</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions">订阅</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions_help">You may subscribe to collections to receive daily e-mail alerts of new items added. You can subscribe to as many or as few collections as you wish. Another alternative to daily e-mail alerts is to use the RSS feeds available for all collections.</message>
-	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Email Subscriptions</message>
-	<message key="xmlui.EPerson.EditProfile.select_collection">( Select Collection )</message>
+	<message key="xmlui.EPerson.EditProfile.email_subscriptions">电子邮件订阅</message>
+	<message key="xmlui.EPerson.EditProfile.select_collection">（选择专题）</message>
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.</message>
 	<message key="xmlui.EPerson.EditProfile.create_password_instructions">Please enter a password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.</message>
-	<message key="xmlui.EPerson.EditProfile.password">Password</message>
-	<message key="xmlui.EPerson.EditProfile.confirm_password">Retype to confirm</message>
-	<message key="xmlui.EPerson.EditProfile.submit_update">Complete Registration</message>
-	<message key="xmlui.EPerson.EditProfile.submit_create">Update Profile</message>
-	<message key="xmlui.EPerson.EditProfile.error_required">This field is required</message>
-	<message key="xmlui.EPerson.EditProfile.error_invalid_password">Choose a password at least 6 characters long</message>
-	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">Please retype your password to confirm</message>
-	<message key="xmlui.EPerson.EditProfile.head_auth">Authorization groups you belong to</message>
-	<message key="xmlui.EPerson.EditProfile.head_identify">Identify</message>
-	<message key="xmlui.EPerson.EditProfile.head_security">Security</message>
+	<message key="xmlui.EPerson.EditProfile.password">密码</message>
+	<message key="xmlui.EPerson.EditProfile.confirm_password">确认密码</message>
+	<message key="xmlui.EPerson.EditProfile.submit_update">完成注册</message>
+	<message key="xmlui.EPerson.EditProfile.submit_create">更新资料</message>
+	<message key="xmlui.EPerson.EditProfile.error_required">此项必须填写</message>
+	<message key="xmlui.EPerson.EditProfile.error_invalid_password">请选择一个至少6位字符长度的密码</message>
+	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">请重新输入确认密码</message>
+	<message key="xmlui.EPerson.EditProfile.head_auth">您属于一下授权用户组</message>
+	<message key="xmlui.EPerson.EditProfile.head_identify">用户身份</message>
+	<message key="xmlui.EPerson.EditProfile.head_security">安全信息</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
 	<message key="xmlui.EPerson.EPersonUtils.register_verify_email">验证邮件</message>
@@ -562,10 +562,10 @@
 	<message key="xmlui.eperson.shibbLoginFailure.p1">Shibboleth authentication not available at this time. Please contact the site administrator.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
-	<message key="xmlui.EPerson.ProfileUpdated.title">Profile updated</message>
-	<message key="xmlui.EPerson.ProfileUpdated.trail">Update profile</message>
-	<message key="xmlui.EPerson.ProfileUpdated.head">Profile updated</message>
-	<message key="xmlui.EPerson.ProfileUpdated.para1">Your profile information has been updated.</message>
+	<message key="xmlui.EPerson.ProfileUpdated.title">个人资料更新</message>
+	<message key="xmlui.EPerson.ProfileUpdated.trail">更新个人资料</message>
+	<message key="xmlui.EPerson.ProfileUpdated.head">个人资料更新</message>
+	<message key="xmlui.EPerson.ProfileUpdated.para1">您的个人资料信息已经更新。</message>
 
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
 	<message key="xmlui.EPerson.RegistrationFinished.title">Registration finished</message>
@@ -573,14 +573,14 @@
 	<message key="xmlui.EPerson.RegistrationFinished.para1">You're now registered to use the DSpace system.  You can subscribe to collections to receive email updates about new items.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
-	<message key="xmlui.EPerson.ResetPassword.title">Reset password</message>
-	<message key="xmlui.EPerson.ResetPassword.head">Reset password</message>
-	<message key="xmlui.EPerson.ResetPassword.para1">Please enter a new password into the box below, and confirm it by typing it again into the second box. It should be at least six characters long.</message>
-	<message key="xmlui.EPerson.ResetPassword.email_address">Email Address</message>
-	<message key="xmlui.EPerson.ResetPassword.new_password">New password</message>
-	<message key="xmlui.EPerson.ResetPassword.confirm_password">Retype to Confirm</message>
-	<message key="xmlui.EPerson.ResetPassword.submit">Reset password</message>
-	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">Choose a password at least 6 characters long</message>
+	<message key="xmlui.EPerson.ResetPassword.title">重置密码</message>
+	<message key="xmlui.EPerson.ResetPassword.head">重置密码</message>
+	<message key="xmlui.EPerson.ResetPassword.para1">请在下方输入框填写新的密码，并在第二个输入框重新输入并确认新密码。密码需要至少6个字符。</message>
+	<message key="xmlui.EPerson.ResetPassword.email_address">电子邮件地址</message>
+	<message key="xmlui.EPerson.ResetPassword.new_password">新密码</message>
+	<message key="xmlui.EPerson.ResetPassword.confirm_password">确认密码</message>
+	<message key="xmlui.EPerson.ResetPassword.submit">重置密码</message>
+	<message key="xmlui.EPerson.ResetPassword.error_invalid_password">请选择一个至少6位字符长度的密码</message>
 	<message key="xmlui.EPerson.ResetPassword.error_unconfirmed_password">Please retype your password to confirm</message>
 
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
@@ -649,14 +649,14 @@
 	<message key="xmlui.Submission.CollectionViewer.link1">Submit a new item to this collection</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
-	<message key="xmlui.Submission.Navigation.submissions">Submissions</message>
+	<message key="xmlui.Submission.Navigation.submissions">提交</message>
 
 
 	<!-- org.dspace.app.xmlui.Submission.submissions -->
-	<message key="xmlui.Submission.Submissions.title">Submissions &amp; Workflow</message>
-	<message key="xmlui.Submission.Submissions.trail">Submissions</message>
-	<message key="xmlui.Submission.Submissions.head">Submissions &amp; Workflow tasks</message>
-	<message key="xmlui.Submission.Submissions.untitled"><i>Untitled</i></message>
+	<message key="xmlui.Submission.Submissions.title">提交 &amp; 工作流</message>
+	<message key="xmlui.Submission.Submissions.trail">提交</message>
+	<message key="xmlui.Submission.Submissions.head">提交 &amp; 工作流任务</message>
+	<message key="xmlui.Submission.Submissions.untitled"><i>未命名</i></message>
 	<message key="xmlui.Submission.Submissions.email">email: </message>
 	<!-- Same transformer, workflow section -->
 	<message key="xmlui.Submission.Submissions.workflow_head1">Workflow tasks</message>
@@ -673,7 +673,7 @@
 	<message key="xmlui.Submission.Submissions.workflow_submit_take">Take selected tasks</message>
 	<message key="xmlui.Submission.Submissions.workflow_info3">No tasks are in the pool</message>
 	<!-- Same transformer, submissions section -->
-	<message key="xmlui.Submission.Submissions.submit_head1">Submissions</message>
+	<message key="xmlui.Submission.Submissions.submit_head1">提交</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">You may </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">start a new submission.</message>
 	<message key="xmlui.Submission.Submissions.submit_info1c">The submission process includes describing the item and uploading the file(s) comprising it. Each community or collection may set its own submission policy.</message>
@@ -682,13 +682,13 @@
 	<message key="xmlui.Submission.Submissions.submit_info2b">start another submission</message>
 	<message key="xmlui.Submission.Submissions.submit_info2c">.</message>
 	<message key="xmlui.Submission.Submissions.submit_column1"></message>
-	<message key="xmlui.Submission.Submissions.submit_column2">Title</message>
-	<message key="xmlui.Submission.Submissions.submit_column3">Collection</message>
+	<message key="xmlui.Submission.Submissions.submit_column2">标题</message>
+	<message key="xmlui.Submission.Submissions.submit_column3">专题</message>
 	<message key="xmlui.Submission.Submissions.submit_column4">Submitter</message>
 	<message key="xmlui.Submission.Submissions.submit_head3">Authoring:</message>
 	<message key="xmlui.Submission.Submissions.submit_info3">No submissions left unfinished.</message>
 	<message key="xmlui.Submission.Submissions.submit_head4">Supervising:</message>
-	<message key="xmlui.Submission.Submissions.submit_submit_remove">Remove selected submissions</message>
+	<message key="xmlui.Submission.Submissions.submit_submit_remove">删除已选择的提交</message>
 	<!-- Same transformer, inprogress section -->
 	<message key="xmlui.Submission.Submissions.progress_head1">Submissions being reviewed</message>
 	<message key="xmlui.Submission.Submissions.progress_info1">These are your completed submissions which are currently being reviewed by collection curators.</message>
@@ -906,9 +906,9 @@
 	<message key="xmlui.Submission.submit.ReviewStep.multiple_titles">Multiple titles</message>
 	<message key="xmlui.Submission.submit.ReviewStep.published_before">Published before</message>
 	<message key="xmlui.Submission.submit.ReviewStep.no_metadata">-</message>
-	<message key="xmlui.Submission.submit.ReviewStep.unknown">unknown</message>
-	<message key="xmlui.Submission.submit.ReviewStep.known">known</message>
-	<message key="xmlui.Submission.submit.ReviewStep.supported">supported</message>
+	<message key="xmlui.Submission.submit.ReviewStep.unknown">未知</message>
+	<message key="xmlui.Submission.submit.ReviewStep.known">已知</message>
+	<message key="xmlui.Submission.submit.ReviewStep.supported">已支持</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
         <message key="xmlui.Submission.submit.CCLicenseStep.ccws_error">An error occurred ... {0}</message>
@@ -1012,7 +1012,7 @@
 
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
-	<message key="xmlui.administrative.Navigation.context_head">Context</message>
+	<message key="xmlui.administrative.Navigation.context_head">建议</message>
 	<message key="xmlui.administrative.Navigation.context_edit_item">Edit this item</message>
 	<message key="xmlui.administrative.Navigation.context_edit_collection">Edit Collection</message>
 	<message key="xmlui.administrative.Navigation.context_item_mapper">Item Mapper</message>
@@ -1027,22 +1027,22 @@
 
 	<!-- Site administrator options -->
 	<message key="xmlui.administrative.Navigation.administrative_head">Administrative</message>
-	<message key="xmlui.administrative.Navigation.administrative_access_control">Access Control</message>
-	<message key="xmlui.administrative.Navigation.administrative_people">People</message>
-	<message key="xmlui.administrative.Navigation.administrative_groups">Groups</message>
-	<message key="xmlui.administrative.Navigation.administrative_authorizations">Authorizations</message>
-	<message key="xmlui.administrative.Navigation.administrative_registries">Registries</message>
-	<message key="xmlui.administrative.Navigation.administrative_metadata">Metadata</message>
-	<message key="xmlui.administrative.Navigation.administrative_format">Format</message>
-    <message key="xmlui.administrative.Navigation.administrative_content">Content Administration</message>
-	<message key="xmlui.administrative.Navigation.administrative_items">Items</message>
-    <message key="xmlui.administrative.Navigation.administrative_withdrawn">Withdrawn Items</message>
-    <message key="xmlui.administrative.Navigation.administrative_private">Private Items</message>
-    <message key="xmlui.administrative.Navigation.administrative_control_panel">Control Panel</message>
-    <message key="xmlui.administrative.Navigation.statistics">Statistics</message>
+	<message key="xmlui.administrative.Navigation.administrative_access_control">访问控制</message>
+	<message key="xmlui.administrative.Navigation.administrative_people">用户</message>
+	<message key="xmlui.administrative.Navigation.administrative_groups">群组</message>
+	<message key="xmlui.administrative.Navigation.administrative_authorizations">授权</message>
+	<message key="xmlui.administrative.Navigation.administrative_registries">注册表</message>
+	<message key="xmlui.administrative.Navigation.administrative_metadata">元数据</message>
+	<message key="xmlui.administrative.Navigation.administrative_format">格式</message>
+    <message key="xmlui.administrative.Navigation.administrative_content">内容管理</message>
+	<message key="xmlui.administrative.Navigation.administrative_items">条目</message>
+    <message key="xmlui.administrative.Navigation.administrative_withdrawn">撤回条目</message>
+    <message key="xmlui.administrative.Navigation.administrative_private">个人条目</message>
+    <message key="xmlui.administrative.Navigation.administrative_control_panel">控制面板</message>
+    <message key="xmlui.administrative.Navigation.statistics">统计</message>
     <message key="xmlui.administrative.Navigation.administrative_batch_import">批量导入(ZIP)</message>
         <message key="xmlui.administrative.Navigation.administrative_import_metadata">导入元数据</message>
-        <message key="xmlui.administrative.Navigation.administrative_curation">Curation Tasks</message>
+        <message key="xmlui.administrative.Navigation.administrative_curation">管理任务</message>
 
     <!-- my account items -->
 	<message key="xmlui.administrative.Navigation.account_export">My Exports</message>
@@ -1259,8 +1259,8 @@
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.description">Description</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support">Support level</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_help">The level of support your institution pledges for this format.</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_0">Unknown</message>
-	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_1">Known</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_0">未知</message>
+	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_1">已知</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.support_2">Supported</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal">Internal</message>
 	<message key="xmlui.administrative.registries.EditBitstreamFormat.internal_help">Formats marked as internal are are hidden from the user, and used for administrative purposes.</message>
@@ -1296,8 +1296,8 @@
 	<message key="xmlui.administrative.registries.EditMetadataSchema.error_qualifier_badchar">The field's qualifier contains a bad character. The qualifier may NOT contain: periods, underscores, or spaces.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.registries.FormatRegistryMain.java -->
-	<message key="xmlui.administrative.registries.FormatRegistryMain.title">Format Registry</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.head">Bitstream format registry</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.title">格式注册表</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.head">数据流格式注册表</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.para1">This list of bitstream formats provides information about known formats and their support level. You can edit or add new bitstream formats with this tool. Formats marked as 'internal' are hidden from the user, and are used for administrative purposes.</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.new_link">Add a new bitstream format</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column1"></message>
@@ -1306,8 +1306,8 @@
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column4">MIME Type</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.column5">Support Level</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.internal">(<i>internal</i>)</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">Unknown</message>
-	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">Known</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.support_0">未知</message>
+	<message key="xmlui.administrative.registries.FormatRegistryMain.support_1">已知</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.support_2">Support</message>
 	<message key="xmlui.administrative.registries.FormatRegistryMain.submit_delete">Delete formats</message>
 
@@ -1655,10 +1655,10 @@
         <message key="xmlui.administrative.item.CurateItemForm.label_name">Task</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.FindItemForm -->
-	<message key="xmlui.administrative.item.FindItemForm.title">Find Item</message>
-	<message key="xmlui.administrative.item.FindItemForm.head1">Find Item</message>
-	<message key="xmlui.administrative.item.FindItemForm.identifier_label">Internal Item ID/Item Handle</message>
-	<message key="xmlui.administrative.item.FindItemForm.identifier_error">Unable to resolve identifier.</message>
+	<message key="xmlui.administrative.item.FindItemForm.title">查找条目</message>
+	<message key="xmlui.administrative.item.FindItemForm.head1">查找条目</message>
+	<message key="xmlui.administrative.item.FindItemForm.identifier_label">内部条目ID/条目Handler</message>
+	<message key="xmlui.administrative.item.FindItemForm.identifier_error">无法解析的标识符。</message>
 	<message key="xmlui.administrative.item.FindItemForm.find">Find</message>
 
         <!-- org.dspace.app.xmlui.administrative.metadataimport -->
@@ -1962,15 +1962,15 @@
 
 
 	<!-- org.dspace.app.xmlui.administrative.ControlPanel.java -->
-	<message key="xmlui.administrative.ControlPanel.title">Control Panel</message>
-	<message key="xmlui.administrative.ControlPanel.trail">Control panel</message>
-	<message key="xmlui.administrative.ControlPanel.head">Control Panel</message>
-	<message key="xmlui.administrative.ControlPanel.option_java">Java Information</message>
-	<message key="xmlui.administrative.ControlPanel.option_dspace">DSpace Configuration</message>
-	<message key="xmlui.administrative.ControlPanel.option_alerts">System-wide Alerts</message>
-	<message key="xmlui.administrative.ControlPanel.hours">{0} h</message>
-	<message key="xmlui.administrative.ControlPanel.minutes">{0} m</message>
-	<message key="xmlui.administrative.ControlPanel.seconds">{0} s</message>
+	<message key="xmlui.administrative.ControlPanel.title">控制面板</message>
+	<message key="xmlui.administrative.ControlPanel.trail">控制面板</message>
+	<message key="xmlui.administrative.ControlPanel.head">控制面板</message>
+	<message key="xmlui.administrative.ControlPanel.option_java">Java信息</message>
+	<message key="xmlui.administrative.ControlPanel.option_dspace">DSpace配置</message>
+	<message key="xmlui.administrative.ControlPanel.option_alerts">系统范围通知</message>
+	<message key="xmlui.administrative.ControlPanel.hours">{0}小时</message>
+	<message key="xmlui.administrative.ControlPanel.minutes">{0}分</message>
+	<message key="xmlui.administrative.ControlPanel.seconds">{0}秒</message>
 	<message key="xmlui.administrative.ControlPanel.java_head">Java and Operating System</message>
 	<message key="xmlui.administrative.ControlPanel.java_version">Java Runtime Environment Version</message>
 	<message key="xmlui.administrative.ControlPanel.java_vendor">Java Runtime Environment Vendor</message>
@@ -2175,7 +2175,7 @@
 	<message key="xmlui.dri2xhtml.structural.contact-link">联系我们</message>
 	<message key="xmlui.dri2xhtml.structural.feedback-link">反馈意见</message>
 
-	<message key="xmlui.dri2xhtml.structural.head-subtitle">机构数据仓储</message>
+	<message key="xmlui.dri2xhtml.structural.head-subtitle">广州石刻文献典藏馆</message>
 
 	<message key="xmlui.dri2xhtml.structural.profile">个人信息: </message>
 	<message key="xmlui.dri2xhtml.structural.logout">注销</message>
