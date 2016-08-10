@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map:component-configurations>
+        <global-variables>
+            <theme-path>MyTheme</theme-path>
+            <theme-name>MyTheme</theme-name>
+        </global-variables>
+</map:component-configurations>
+

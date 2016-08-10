@@ -210,7 +210,7 @@
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Search Scope</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">全部数据仓储</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">在当前专题中查找:</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Browse by</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">浏览方式</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">标题</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">作者</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">日期</message>
@@ -220,21 +220,21 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">社群列表</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">社群列表</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">社群</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">社群列表</message>
 	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">选择一个社群浏览其包括的专题。</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Search Scope</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">All of DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Search within this community and its collections:</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Browse by</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Titles</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Authors</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Dates</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Advanced Search</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Sub-communities within this community</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Collections in this community</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Recent Submissions</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">在当前社群和专题中检索:</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">浏览方式</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">标题</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">作者</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">日期</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">高级检索</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">当前社群中的子社群</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">当前社群中的专题</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">最近提交</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
@@ -485,7 +485,7 @@
 	<message key="xmlui.EPerson.EditProfile.error_invalid_password">请选择一个至少6位字符长度的密码</message>
 	<message key="xmlui.EPerson.EditProfile.error_unconfirmed_password">请重新输入确认密码</message>
 	<message key="xmlui.EPerson.EditProfile.head_auth">您属于一下授权用户组</message>
-	<message key="xmlui.EPerson.EditProfile.head_identify">用户身份</message>
+	<message key="xmlui.EPerson.EditProfile.head_identify">个人信息</message>
 	<message key="xmlui.EPerson.EditProfile.head_security">安全信息</message>
 
 	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
@@ -1012,21 +1012,21 @@
 
 	<!-- org.dspace.app.xmlui.administrative.Navigation -->
 	<!-- contextual menu items -->
-	<message key="xmlui.administrative.Navigation.context_head">建议</message>
-	<message key="xmlui.administrative.Navigation.context_edit_item">Edit this item</message>
-	<message key="xmlui.administrative.Navigation.context_edit_collection">Edit Collection</message>
-	<message key="xmlui.administrative.Navigation.context_item_mapper">Item Mapper</message>
-	<message key="xmlui.administrative.Navigation.context_edit_community">Edit Community</message>
-	<message key="xmlui.administrative.Navigation.context_create_collection">Create Collection</message>
-	<message key="xmlui.administrative.Navigation.context_create_subcommunity">Create Sub-community</message>
-	<message key="xmlui.administrative.Navigation.context_create_community">Create Community</message>
-	<message key="xmlui.administrative.Navigation.context_export_item">Export Item</message>
-        <message key="xmlui.administrative.Navigation.context_export_collection">Export Collection</message>
-        <message key="xmlui.administrative.Navigation.context_export_community">Export Community</message>
-        <message key="xmlui.administrative.Navigation.context_export_metadata">Export Metadata</message>
+	<message key="xmlui.administrative.Navigation.context_head">可用操作</message>
+	<message key="xmlui.administrative.Navigation.context_edit_item">编辑当前条目</message>
+	<message key="xmlui.administrative.Navigation.context_edit_collection">编辑专题</message>
+	<message key="xmlui.administrative.Navigation.context_item_mapper">条目导航</message>
+	<message key="xmlui.administrative.Navigation.context_edit_community">编辑社群</message>
+	<message key="xmlui.administrative.Navigation.context_create_collection">创建专题</message>
+	<message key="xmlui.administrative.Navigation.context_create_subcommunity">创建子社群</message>
+	<message key="xmlui.administrative.Navigation.context_create_community">创建社群</message>
+	<message key="xmlui.administrative.Navigation.context_export_item">导出条目</message>
+        <message key="xmlui.administrative.Navigation.context_export_collection">导出专题</message>
+        <message key="xmlui.administrative.Navigation.context_export_community">导出社群</message>
+        <message key="xmlui.administrative.Navigation.context_export_metadata">导出元数据</message>
 
 	<!-- Site administrator options -->
-	<message key="xmlui.administrative.Navigation.administrative_head">Administrative</message>
+	<message key="xmlui.administrative.Navigation.administrative_head">管理功能</message>
 	<message key="xmlui.administrative.Navigation.administrative_access_control">访问控制</message>
 	<message key="xmlui.administrative.Navigation.administrative_people">用户</message>
 	<message key="xmlui.administrative.Navigation.administrative_groups">群组</message>
@@ -1714,7 +1714,7 @@
 	<message key="xmlui.administrative.mapper.MapperMain.head1">Item Mapper - Map Items from Other Collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para1">Collection: "<strong>{0}</strong>"</message>
 	<message key="xmlui.administrative.mapper.MapperMain.para2">This is the item mapper tool that allows collection administrators to map items from other collections into this collection. You can search for items from other collections and map them, or browse the list of currently mapped items.</message>
-	<message key="xmlui.administrative.mapper.MapperMain.stat_label">Statistics</message>
+	<message key="xmlui.administrative.mapper.MapperMain.stat_label">数据统计</message>
 	<message key="xmlui.administrative.mapper.MapperMain.stat_info"><strong>{0} of {1}</strong> items in this collection are mapped in from other collections</message>
 	<message key="xmlui.administrative.mapper.MapperMain.search_label">Search</message>
 	<message key="xmlui.administrative.mapper.MapperMain.submit_search">Search Items</message>
@@ -1954,8 +1954,8 @@
 	<message key="xmlui.administrative.community.EditCommunityMetadataForm.submit_delete">Delete community</message>
 
 	<!-- org.dspace.app.xmlui.administrative.community.CreateCommunityForm.java -->
-	<message key="xmlui.administrative.community.CreateCommunityForm.title">Create Community</message>
-	<message key="xmlui.administrative.community.CreateCommunityForm.trail">Create Community</message>
+	<message key="xmlui.administrative.community.CreateCommunityForm.title">创建社群</message>
+	<message key="xmlui.administrative.community.CreateCommunityForm.trail">创建社群</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.main_head_sub">Enter Metadata for a New Sub-Community of {0}</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.main_head_top">Edit Metadata for a New Top-Level Community</message>
 	<message key="xmlui.administrative.community.CreateCommunityForm.submit_save">Create</message>
@@ -1966,7 +1966,7 @@
 	<message key="xmlui.administrative.ControlPanel.trail">控制面板</message>
 	<message key="xmlui.administrative.ControlPanel.head">控制面板</message>
 	<message key="xmlui.administrative.ControlPanel.option_java">Java信息</message>
-	<message key="xmlui.administrative.ControlPanel.option_dspace">DSpace配置</message>
+	<message key="xmlui.administrative.ControlPanel.option_dspace">系统配置</message>
 	<message key="xmlui.administrative.ControlPanel.option_alerts">系统范围通知</message>
 	<message key="xmlui.administrative.ControlPanel.hours">{0}小时</message>
 	<message key="xmlui.administrative.ControlPanel.minutes">{0}分</message>
@@ -2067,20 +2067,20 @@
                      Statistics Aspect
 
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-    <message key="xmlui.statistics.title">Statistics</message>
+    <message key="xmlui.statistics.title">数据统计</message>
     <message key="xmlui.statistics.search.title">Search Statistics</message>
     <message key="xmlui.statistics.search.head">Search Statistics</message>
     <message key="xmlui.statistics.search.head-dso">Search Statistics for {0}</message>
     <message key="xmlui.statistics.search.error">There was an error while generating the search statistics, please try again later.</message>
     <message key="xmlui.statistics.search.no-results">No search statistics available for the selected period.</message>
     <message key="xmlui.statistics.workflow.title">Workflow Statistics</message>
-    <message key="xmlui.statistics.visits.total">Total Visits</message>
-    <message key="xmlui.statistics.visits.month">Total Visits Per Month</message>
+    <message key="xmlui.statistics.visits.total">总访问量</message>
+    <message key="xmlui.statistics.visits.month">月访问量</message>
     <message key="xmlui.statistics.visits.views">Views</message>
     <message key="xmlui.statistics.visits.countries">Top country views</message>
     <message key="xmlui.statistics.visits.cities">Top cities views</message>
     <message key="xmlui.statistics.visits.bitstreams">File Visits</message>
-    <message key="xmlui.statistics.Navigation.title">Statistics</message>
+    <message key="xmlui.statistics.Navigation.title">数据统计</message>
     <message key="xmlui.statistics.Navigation.usage.view">View Usage Statistics</message>
     <message key="xmlui.statistics.Navigation.usage-Elasticsearch.view">View Usage Statistics</message>
     <message key="xmlui.statistics.Navigation.search.view">View Search Statistics</message>
@@ -2181,7 +2181,7 @@
 	<message key="xmlui.dri2xhtml.structural.logout">注销</message>
 	<message key="xmlui.dri2xhtml.structural.login">登录</message>
 
-	<message key="xmlui.dri2xhtml.structural.search">检索</message>
+	<message key="xmlui.dri2xhtml.structural.search">检索全库</message>
 	<message key="xmlui.dri2xhtml.structural.search-advanced">高级检索</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-community">当前社群</message>
 	<message key="xmlui.dri2xhtml.structural.search-in-collection">当前专题</message>
@@ -2244,10 +2244,10 @@
 		by overriding the dri2xhtml's template named communitySummaryView.
 	</message>
 
-	<message key="xmlui.dri2xhtml.METS-1.0.collection-logo-alt">The collection's logo</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.community-logo-alt">The community's logo</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.no-logo-alt">No logo</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.news">News</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.collection-logo-alt">此专题LOGO</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.community-logo-alt">此社群LOGO</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.no-logo-alt">没有LOGO</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.news">新闻</message>
 
 	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
 		DS-METS-1.0-QDC.xsl -->
@@ -2478,10 +2478,10 @@
     <message key="xmlui.mirage2.itemSummaryView.MetaData">Metadata</message>
     <message key="xmlui.mirage2.itemSummaryView.Collections">Collections</message>
 
-    <message key="xmlui.mirage2.discovery.reset">Reset</message>
-    <message key="xmlui.mirage2.discovery.newFilter">Add New Filter</message>
-    <message key="xmlui.mirage2.discovery.showAdvancedFilters">Show Advanced Filters</message>
-    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">Hide Advanced Filters</message>
+    <message key="xmlui.mirage2.discovery.reset">重置</message>
+    <message key="xmlui.mirage2.discovery.newFilter">增加新筛选器</message>
+    <message key="xmlui.mirage2.discovery.showAdvancedFilters">显示高级筛选器</message>
+    <message key="xmlui.mirage2.discovery.hideAdvancedFilters">隐藏高级筛选器</message>
 
 
     <message key="xmlui.mirage2.forms.instancedCompositeFields.add">Add</message>
@@ -2502,4 +2502,20 @@
     <message key="xmlui.mirage2.choice-authority-control.loading">Loading...</message>
 
     <message key="xmlui.mirage2.item-list.thumbnail">Thumbnail</message>
+
+
+
+
+
+
+
+
+
+
+
+<!--缺失补齐 -->
+<message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">最近更新</message>
+
+
+
 </catalogue>
